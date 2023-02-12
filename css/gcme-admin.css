@@ -1,0 +1,64 @@
+/**
+ * Admin css.
+ */
+.preparation {
+	background: #fff;
+	border: #ddd 0.0625rem solid;
+	margin: 3.2rem 0;
+	padding: 1.6rem 2.4rem;
+	width: 64%;
+}
+
+.preparation em {
+	font-weight: 700;
+}
+
+.preparation .preparation-title {
+	font-size: 1.2rem;
+}
+
+.preparation .file-list {
+	list-style-type: disc;
+	padding: 0 0 0 1.2rem;
+}
+
+fieldset {
+	border: #ddd 0.0625rem solid;
+	margin: 0 0 3.2rem;
+	padding: 1.6rem 2.4rem;
+	width: 64%;
+}
+
+fieldset legend {
+	font-weight: 700;
+}
+
+.gcme-radio {
+	display: block;
+	margin: .4rem 0;
+}
+
+.imgurl-description {
+	margin: 0 0 2.4rem;
+}
+
+input::placeholder {
+	color: #ddd;
+	font-size: .8rem;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+input:focus::-ms-input-placeholder {
+	color: transparent;
+}
+
+input:focus::placeholder {
+	color: transparent;
+}
